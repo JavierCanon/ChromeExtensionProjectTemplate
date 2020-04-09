@@ -1,0 +1,8 @@
+
+{
+	"please_wait_scanning" : {"message" : "אנא המתן, הדף נסרק"},
+  	"browser_action": {"message": "שמור תמונה של עמוד" },
+  	"ext_desc": {"message": "שמור תמונה של כל הדף בכל אתר כתמונה" },
+  	"ext_name": {"message": "שמור דף אינטרנט כתמונה בלחיצה אחת" }
+}
+

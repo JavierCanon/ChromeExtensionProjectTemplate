@@ -1,0 +1,9 @@
+
+{
+	"please_wait_scanning" : {"message" : "Please wait, scanning"},
+	"please_wait_uploading" : {"message" : "Please wait, uploading"},
+  	"browser_action": {"message": "Save page as image" },
+  	"ext_desc": {"message": "Save entire page of any site to png image" },
+  	"ext_name": {"message": "1click Save Entire Page as Image" }
+}
+
