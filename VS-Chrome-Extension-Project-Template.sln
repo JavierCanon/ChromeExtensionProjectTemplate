@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BA0C99FF-72CB-49A4-919D-49886B7AB58D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		ACKNOWLEDGMENTS.md = ACKNOWLEDGMENTS.md
+		AUTHORS.md = AUTHORS.md
+		CHANGELOG.md = CHANGELOG.md
+		CODE_OF_CONDUCT.md = CODE_OF_CONDUCT.md
+		CONTRIBUTING.md = CONTRIBUTING.md
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+		RELEASE.md = RELEASE.md
+		ROADMAP.md = ROADMAP.md
+		SECURITY.md = SECURITY.md
+		TODO.md = TODO.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extension", "Extension", "{8CF34860-34B9-4CF1-9FFC-6F7269AA1823}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{3967FBA7-E2F3-494D-9F2E-48ABD8CFF724}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8908254F-0561-4763-8872-6E2D16FB9B8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{259B43EA-A506-4971-936C-3F81B63E618B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChromeExtensionProjectTemplate", "src\ChromeExtensionProjectTemplate\ChromeExtensionProjectTemplate.csproj", "{9D141603-1A9D-4EEC-82D8-C473EA436839}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChromeExtensionTemplate", "src\ChromeExtensionVsix\ChromeExtensionTemplate.csproj", "{BBBB9629-3C3D-4BE4-8E23-677F9159FF33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google Chrome Extension1", "src\Tests\Google Chrome Extension1\Google Chrome Extension1.csproj", "{10E04C5B-4877-45DC-ACAC-1F53184B4EF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D141603-1A9D-4EEC-82D8-C473EA436839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D141603-1A9D-4EEC-82D8-C473EA436839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D141603-1A9D-4EEC-82D8-C473EA436839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D141603-1A9D-4EEC-82D8-C473EA436839}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBBB9629-3C3D-4BE4-8E23-677F9159FF33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBBB9629-3C3D-4BE4-8E23-677F9159FF33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBBB9629-3C3D-4BE4-8E23-677F9159FF33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBBB9629-3C3D-4BE4-8E23-677F9159FF33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10E04C5B-4877-45DC-ACAC-1F53184B4EF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10E04C5B-4877-45DC-ACAC-1F53184B4EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10E04C5B-4877-45DC-ACAC-1F53184B4EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10E04C5B-4877-45DC-ACAC-1F53184B4EF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9D141603-1A9D-4EEC-82D8-C473EA436839} = {259B43EA-A506-4971-936C-3F81B63E618B}
+		{BBBB9629-3C3D-4BE4-8E23-677F9159FF33} = {8CF34860-34B9-4CF1-9FFC-6F7269AA1823}
+		{10E04C5B-4877-45DC-ACAC-1F53184B4EF2} = {8908254F-0561-4763-8872-6E2D16FB9B8A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BF7AC2C-5C48-4F25-BE24-0AFC57DF0001}
+	EndGlobalSection
+EndGlobal
