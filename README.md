@@ -43,7 +43,9 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Javier Cañon** - *Initial work* - [www.JavierCanon.com](https://javiercanon.com)
+* LigerShark - *Initial work*
+* madskristensen - *Update to VS 2019*
+* [Javier Cañon](https://javiercanon.com) *This works*
 
 See also the list of [contributors](/AUTHORS.md) who participated in this project.
 
